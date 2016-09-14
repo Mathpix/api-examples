@@ -1,0 +1,568 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		74F1F5DAB60DE791629DE121 /* Pods_Sample_Mathpix.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E42BD3F666522AF9D4406B5 /* Pods_Sample_Mathpix.framework */; };
+		E939BE9E1D3CBE4600CCCE3F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E939BE9D1D3CBE4600CCCE3F /* AppDelegate.swift */; };
+		E939BEA01D3CBE4600CCCE3F /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E939BE9F1D3CBE4600CCCE3F /* WebViewController.swift */; };
+		E939BEA31D3CBE4600CCCE3F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E939BEA11D3CBE4600CCCE3F /* Main.storyboard */; };
+		E939BEA51D3CBE4600CCCE3F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E939BEA41D3CBE4600CCCE3F /* Assets.xcassets */; };
+		E939BEA81D3CBE4600CCCE3F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E939BEA61D3CBE4600CCCE3F /* LaunchScreen.storyboard */; };
+		E939BEB01D3CBFC100CCCE3F /* latex.html in Resources */ = {isa = PBXBuildFile; fileRef = E939BEAF1D3CBFC100CCCE3F /* latex.html */; };
+		E939BEB21D3CC17900CCCE3F /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E939BEB11D3CC17900CCCE3F /* CameraViewController.swift */; };
+		E939BEB41D3CC2B300CCCE3F /* ImageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E939BEB31D3CC2B300CCCE3F /* ImageService.swift */; };
+		E939BEB61D3CC2F400CCCE3F /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E939BEB51D3CC2F400CCCE3F /* Constants.swift */; };
+		E939BEBA1D3CC5AB00CCCE3F /* OverlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = E939BEB91D3CC5AB00CCCE3F /* OverlayView.m */; };
+		E939BF071D3CC5EE00CCCE3F /* CropControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = E939BEE91D3CC5EE00CCCE3F /* CropControl.swift */; };
+		E939BF081D3CC5EE00CCCE3F /* CropControlCorner.swift in Sources */ = {isa = PBXBuildFile; fileRef = E939BEEA1D3CC5EE00CCCE3F /* CropControlCorner.swift */; };
+		E939BF091D3CC5EE00CCCE3F /* CropControlOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = E939BEEB1D3CC5EE00CCCE3F /* CropControlOverlay.swift */; };
+		E939BF0A1D3CC5EE00CCCE3F /* CameraSessionView.m in Sources */ = {isa = PBXBuildFile; fileRef = E939BEEF1D3CC5EE00CCCE3F /* CameraSessionView.m */; };
+		E939BF0B1D3CC5EE00CCCE3F /* CameraDismissButton.m in Sources */ = {isa = PBXBuildFile; fileRef = E939BEF31D3CC5EE00CCCE3F /* CameraDismissButton.m */; };
+		E939BF0C1D3CC5EE00CCCE3F /* CameraFlashButton.m in Sources */ = {isa = PBXBuildFile; fileRef = E939BEF51D3CC5EE00CCCE3F /* CameraFlashButton.m */; };
+		E939BF0D1D3CC5EE00CCCE3F /* CameraFocalReticule.m in Sources */ = {isa = PBXBuildFile; fileRef = E939BEF71D3CC5EE00CCCE3F /* CameraFocalReticule.m */; };
+		E939BF0E1D3CC5EE00CCCE3F /* CameraShutterButton.m in Sources */ = {isa = PBXBuildFile; fileRef = E939BEF91D3CC5EE00CCCE3F /* CameraShutterButton.m */; };
+		E939BF0F1D3CC5EE00CCCE3F /* CameraToggleButton.m in Sources */ = {isa = PBXBuildFile; fileRef = E939BEFB1D3CC5EE00CCCE3F /* CameraToggleButton.m */; };
+		E939BF101D3CC5EE00CCCE3F /* LaunchCameraButton.m in Sources */ = {isa = PBXBuildFile; fileRef = E939BEFD1D3CC5EE00CCCE3F /* LaunchCameraButton.m */; };
+		E939BF111D3CC5EE00CCCE3F /* PaintCodeFile.pcvd in Resources */ = {isa = PBXBuildFile; fileRef = E939BEFE1D3CC5EE00CCCE3F /* PaintCodeFile.pcvd */; };
+		E939BF121D3CC5EE00CCCE3F /* CameraStyleKitClass.m in Sources */ = {isa = PBXBuildFile; fileRef = E939BF011D3CC5EE00CCCE3F /* CameraStyleKitClass.m */; };
+		E939BF131D3CC5EE00CCCE3F /* CaptureSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E939BF041D3CC5EE00CCCE3F /* CaptureSessionManager.m */; };
+		E939BF141D3CC5EE00CCCE3F /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = E939BF061D3CC5EE00CCCE3F /* Constants.m */; };
+		E939BF201D3CC76100CCCE3F /* ColorUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = E939BF161D3CC76100CCCE3F /* ColorUtil.swift */; };
+		E939BF211D3CC76100CCCE3F /* DeviceUID.m in Sources */ = {isa = PBXBuildFile; fileRef = E939BF181D3CC76100CCCE3F /* DeviceUID.m */; };
+		E939BF221D3CC76100CCCE3F /* FXBlurView.m in Sources */ = {isa = PBXBuildFile; fileRef = E939BF1A1D3CC76100CCCE3F /* FXBlurView.m */; };
+		E939BF241D3CC76100CCCE3F /* UIImage+Resize.m in Sources */ = {isa = PBXBuildFile; fileRef = E939BF1D1D3CC76100CCCE3F /* UIImage+Resize.m */; };
+		E939BF251D3CC76100CCCE3F /* UIView+Size.m in Sources */ = {isa = PBXBuildFile; fileRef = E939BF1F1D3CC76100CCCE3F /* UIView+Size.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3E6555EF496B11B30DA596A3 /* Pods-Sample-Mathpix.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sample-Mathpix.release.xcconfig"; path = "Pods/Target Support Files/Pods-Sample-Mathpix/Pods-Sample-Mathpix.release.xcconfig"; sourceTree = "<group>"; };
+		7E42BD3F666522AF9D4406B5 /* Pods_Sample_Mathpix.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sample_Mathpix.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0BA6FC7EECA3E2E44B85FB9 /* Pods-Sample-Mathpix.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sample-Mathpix.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Sample-Mathpix/Pods-Sample-Mathpix.debug.xcconfig"; sourceTree = "<group>"; };
+		E939BE9A1D3CBE4600CCCE3F /* Sample-Mathpix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sample-Mathpix.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E939BE9D1D3CBE4600CCCE3F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E939BE9F1D3CBE4600CCCE3F /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		E939BEA21D3CBE4600CCCE3F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E939BEA41D3CBE4600CCCE3F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E939BEA71D3CBE4600CCCE3F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E939BEA91D3CBE4600CCCE3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E939BEAF1D3CBFC100CCCE3F /* latex.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = latex.html; path = ../../latex.html; sourceTree = "<group>"; };
+		E939BEB11D3CC17900CCCE3F /* CameraViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		E939BEB31D3CC2B300CCCE3F /* ImageService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageService.swift; sourceTree = "<group>"; };
+		E939BEB51D3CC2F400CCCE3F /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		E939BEB71D3CC5AA00CCCE3F /* Sample-Mathpix-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Sample-Mathpix-Bridging-Header.h"; sourceTree = "<group>"; };
+		E939BEB81D3CC5AB00CCCE3F /* OverlayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OverlayView.h; sourceTree = "<group>"; };
+		E939BEB91D3CC5AB00CCCE3F /* OverlayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OverlayView.m; sourceTree = "<group>"; };
+		E939BEE91D3CC5EE00CCCE3F /* CropControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CropControl.swift; sourceTree = "<group>"; };
+		E939BEEA1D3CC5EE00CCCE3F /* CropControlCorner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CropControlCorner.swift; sourceTree = "<group>"; };
+		E939BEEB1D3CC5EE00CCCE3F /* CropControlOverlay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CropControlOverlay.swift; sourceTree = "<group>"; };
+		E939BEEE1D3CC5EE00CCCE3F /* CameraSessionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraSessionView.h; sourceTree = "<group>"; };
+		E939BEEF1D3CC5EE00CCCE3F /* CameraSessionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CameraSessionView.m; sourceTree = "<group>"; };
+		E939BEF21D3CC5EE00CCCE3F /* CameraDismissButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraDismissButton.h; sourceTree = "<group>"; };
+		E939BEF31D3CC5EE00CCCE3F /* CameraDismissButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CameraDismissButton.m; sourceTree = "<group>"; };
+		E939BEF41D3CC5EE00CCCE3F /* CameraFlashButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraFlashButton.h; sourceTree = "<group>"; };
+		E939BEF51D3CC5EE00CCCE3F /* CameraFlashButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CameraFlashButton.m; sourceTree = "<group>"; };
+		E939BEF61D3CC5EE00CCCE3F /* CameraFocalReticule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraFocalReticule.h; sourceTree = "<group>"; };
+		E939BEF71D3CC5EE00CCCE3F /* CameraFocalReticule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CameraFocalReticule.m; sourceTree = "<group>"; };
+		E939BEF81D3CC5EE00CCCE3F /* CameraShutterButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraShutterButton.h; sourceTree = "<group>"; };
+		E939BEF91D3CC5EE00CCCE3F /* CameraShutterButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CameraShutterButton.m; sourceTree = "<group>"; };
+		E939BEFA1D3CC5EE00CCCE3F /* CameraToggleButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraToggleButton.h; sourceTree = "<group>"; };
+		E939BEFB1D3CC5EE00CCCE3F /* CameraToggleButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CameraToggleButton.m; sourceTree = "<group>"; };
+		E939BEFC1D3CC5EE00CCCE3F /* LaunchCameraButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LaunchCameraButton.h; sourceTree = "<group>"; };
+		E939BEFD1D3CC5EE00CCCE3F /* LaunchCameraButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LaunchCameraButton.m; sourceTree = "<group>"; };
+		E939BEFE1D3CC5EE00CCCE3F /* PaintCodeFile.pcvd */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = PaintCodeFile.pcvd; sourceTree = "<group>"; };
+		E939BF001D3CC5EE00CCCE3F /* CameraStyleKitClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraStyleKitClass.h; sourceTree = "<group>"; };
+		E939BF011D3CC5EE00CCCE3F /* CameraStyleKitClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CameraStyleKitClass.m; sourceTree = "<group>"; };
+		E939BF031D3CC5EE00CCCE3F /* CaptureSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CaptureSessionManager.h; sourceTree = "<group>"; };
+		E939BF041D3CC5EE00CCCE3F /* CaptureSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CaptureSessionManager.m; sourceTree = "<group>"; };
+		E939BF051D3CC5EE00CCCE3F /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		E939BF061D3CC5EE00CCCE3F /* Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Constants.m; sourceTree = "<group>"; };
+		E939BF161D3CC76100CCCE3F /* ColorUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorUtil.swift; sourceTree = "<group>"; };
+		E939BF171D3CC76100CCCE3F /* DeviceUID.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceUID.h; sourceTree = "<group>"; };
+		E939BF181D3CC76100CCCE3F /* DeviceUID.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeviceUID.m; sourceTree = "<group>"; };
+		E939BF191D3CC76100CCCE3F /* FXBlurView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FXBlurView.h; sourceTree = "<group>"; };
+		E939BF1A1D3CC76100CCCE3F /* FXBlurView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FXBlurView.m; sourceTree = "<group>"; };
+		E939BF1C1D3CC76100CCCE3F /* UIImage+Resize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Resize.h"; sourceTree = "<group>"; };
+		E939BF1D1D3CC76100CCCE3F /* UIImage+Resize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Resize.m"; sourceTree = "<group>"; };
+		E939BF1E1D3CC76100CCCE3F /* UIView+Size.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Size.h"; sourceTree = "<group>"; };
+		E939BF1F1D3CC76100CCCE3F /* UIView+Size.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Size.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E939BE971D3CBE4600CCCE3F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74F1F5DAB60DE791629DE121 /* Pods_Sample_Mathpix.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		32ED563EB052BAF03B549150 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D0BA6FC7EECA3E2E44B85FB9 /* Pods-Sample-Mathpix.debug.xcconfig */,
+				3E6555EF496B11B30DA596A3 /* Pods-Sample-Mathpix.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A227628D8A8A0AE656045C49 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7E42BD3F666522AF9D4406B5 /* Pods_Sample_Mathpix.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E939BE911D3CBE4600CCCE3F = {
+			isa = PBXGroup;
+			children = (
+				E939BE9C1D3CBE4600CCCE3F /* Sample-Mathpix */,
+				E939BE9B1D3CBE4600CCCE3F /* Products */,
+				32ED563EB052BAF03B549150 /* Pods */,
+				A227628D8A8A0AE656045C49 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E939BE9B1D3CBE4600CCCE3F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E939BE9A1D3CBE4600CCCE3F /* Sample-Mathpix.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E939BE9C1D3CBE4600CCCE3F /* Sample-Mathpix */ = {
+			isa = PBXGroup;
+			children = (
+				E939BF151D3CC76100CCCE3F /* Util */,
+				E939BEE81D3CC5EE00CCCE3F /* Camera Overlay */,
+				E939BEEC1D3CC5EE00CCCE3F /* CustomizableCamera */,
+				E939BEB81D3CC5AB00CCCE3F /* OverlayView.h */,
+				E939BEB91D3CC5AB00CCCE3F /* OverlayView.m */,
+				E939BEAF1D3CBFC100CCCE3F /* latex.html */,
+				E939BE9D1D3CBE4600CCCE3F /* AppDelegate.swift */,
+				E939BE9F1D3CBE4600CCCE3F /* WebViewController.swift */,
+				E939BEB11D3CC17900CCCE3F /* CameraViewController.swift */,
+				E939BEB31D3CC2B300CCCE3F /* ImageService.swift */,
+				E939BEB51D3CC2F400CCCE3F /* Constants.swift */,
+				E939BEA11D3CBE4600CCCE3F /* Main.storyboard */,
+				E939BEA41D3CBE4600CCCE3F /* Assets.xcassets */,
+				E939BEA61D3CBE4600CCCE3F /* LaunchScreen.storyboard */,
+				E939BEA91D3CBE4600CCCE3F /* Info.plist */,
+				E939BEB71D3CC5AA00CCCE3F /* Sample-Mathpix-Bridging-Header.h */,
+			);
+			path = "Sample-Mathpix";
+			sourceTree = "<group>";
+		};
+		E939BEE81D3CC5EE00CCCE3F /* Camera Overlay */ = {
+			isa = PBXGroup;
+			children = (
+				E939BEE91D3CC5EE00CCCE3F /* CropControl.swift */,
+				E939BEEA1D3CC5EE00CCCE3F /* CropControlCorner.swift */,
+				E939BEEB1D3CC5EE00CCCE3F /* CropControlOverlay.swift */,
+			);
+			path = "Camera Overlay";
+			sourceTree = "<group>";
+		};
+		E939BEEC1D3CC5EE00CCCE3F /* CustomizableCamera */ = {
+			isa = PBXGroup;
+			children = (
+				E939BEED1D3CC5EE00CCCE3F /* Camera View */,
+				E939BEF01D3CC5EE00CCCE3F /* Graphical Assets */,
+				E939BF021D3CC5EE00CCCE3F /* Model Classes */,
+			);
+			path = CustomizableCamera;
+			sourceTree = "<group>";
+		};
+		E939BEED1D3CC5EE00CCCE3F /* Camera View */ = {
+			isa = PBXGroup;
+			children = (
+				E939BEEE1D3CC5EE00CCCE3F /* CameraSessionView.h */,
+				E939BEEF1D3CC5EE00CCCE3F /* CameraSessionView.m */,
+			);
+			path = "Camera View";
+			sourceTree = "<group>";
+		};
+		E939BEF01D3CC5EE00CCCE3F /* Graphical Assets */ = {
+			isa = PBXGroup;
+			children = (
+				E939BEF11D3CC5EE00CCCE3F /* CameraViewComponents */,
+				E939BEFE1D3CC5EE00CCCE3F /* PaintCodeFile.pcvd */,
+				E939BEFF1D3CC5EE00CCCE3F /* UI Assets */,
+			);
+			path = "Graphical Assets";
+			sourceTree = "<group>";
+		};
+		E939BEF11D3CC5EE00CCCE3F /* CameraViewComponents */ = {
+			isa = PBXGroup;
+			children = (
+				E939BEF21D3CC5EE00CCCE3F /* CameraDismissButton.h */,
+				E939BEF31D3CC5EE00CCCE3F /* CameraDismissButton.m */,
+				E939BEF41D3CC5EE00CCCE3F /* CameraFlashButton.h */,
+				E939BEF51D3CC5EE00CCCE3F /* CameraFlashButton.m */,
+				E939BEF61D3CC5EE00CCCE3F /* CameraFocalReticule.h */,
+				E939BEF71D3CC5EE00CCCE3F /* CameraFocalReticule.m */,
+				E939BEF81D3CC5EE00CCCE3F /* CameraShutterButton.h */,
+				E939BEF91D3CC5EE00CCCE3F /* CameraShutterButton.m */,
+				E939BEFA1D3CC5EE00CCCE3F /* CameraToggleButton.h */,
+				E939BEFB1D3CC5EE00CCCE3F /* CameraToggleButton.m */,
+				E939BEFC1D3CC5EE00CCCE3F /* LaunchCameraButton.h */,
+				E939BEFD1D3CC5EE00CCCE3F /* LaunchCameraButton.m */,
+			);
+			path = CameraViewComponents;
+			sourceTree = "<group>";
+		};
+		E939BEFF1D3CC5EE00CCCE3F /* UI Assets */ = {
+			isa = PBXGroup;
+			children = (
+				E939BF001D3CC5EE00CCCE3F /* CameraStyleKitClass.h */,
+				E939BF011D3CC5EE00CCCE3F /* CameraStyleKitClass.m */,
+			);
+			path = "UI Assets";
+			sourceTree = "<group>";
+		};
+		E939BF021D3CC5EE00CCCE3F /* Model Classes */ = {
+			isa = PBXGroup;
+			children = (
+				E939BF031D3CC5EE00CCCE3F /* CaptureSessionManager.h */,
+				E939BF041D3CC5EE00CCCE3F /* CaptureSessionManager.m */,
+				E939BF051D3CC5EE00CCCE3F /* Constants.h */,
+				E939BF061D3CC5EE00CCCE3F /* Constants.m */,
+			);
+			path = "Model Classes";
+			sourceTree = "<group>";
+		};
+		E939BF151D3CC76100CCCE3F /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				E939BF161D3CC76100CCCE3F /* ColorUtil.swift */,
+				E939BF171D3CC76100CCCE3F /* DeviceUID.h */,
+				E939BF181D3CC76100CCCE3F /* DeviceUID.m */,
+				E939BF191D3CC76100CCCE3F /* FXBlurView.h */,
+				E939BF1A1D3CC76100CCCE3F /* FXBlurView.m */,
+				E939BF1C1D3CC76100CCCE3F /* UIImage+Resize.h */,
+				E939BF1D1D3CC76100CCCE3F /* UIImage+Resize.m */,
+				E939BF1E1D3CC76100CCCE3F /* UIView+Size.h */,
+				E939BF1F1D3CC76100CCCE3F /* UIView+Size.m */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E939BE991D3CBE4600CCCE3F /* Sample-Mathpix */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E939BEAC1D3CBE4600CCCE3F /* Build configuration list for PBXNativeTarget "Sample-Mathpix" */;
+			buildPhases = (
+				059F5853519511E4CC513680 /* [CP] Check Pods Manifest.lock */,
+				E939BE961D3CBE4600CCCE3F /* Sources */,
+				E939BE971D3CBE4600CCCE3F /* Frameworks */,
+				E939BE981D3CBE4600CCCE3F /* Resources */,
+				D622B6C930CC19ECB4526A99 /* [CP] Embed Pods Frameworks */,
+				5DE64CCC1F6BFB21D47DE89B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Sample-Mathpix";
+			productName = "Sample-Mathpix";
+			productReference = E939BE9A1D3CBE4600CCCE3F /* Sample-Mathpix.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E939BE921D3CBE4600CCCE3F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Mathpix;
+				TargetAttributes = {
+					E939BE991D3CBE4600CCCE3F = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = E939BE951D3CBE4600CCCE3F /* Build configuration list for PBXProject "Sample-Mathpix" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E939BE911D3CBE4600CCCE3F;
+			productRefGroup = E939BE9B1D3CBE4600CCCE3F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E939BE991D3CBE4600CCCE3F /* Sample-Mathpix */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E939BE981D3CBE4600CCCE3F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E939BEA81D3CBE4600CCCE3F /* LaunchScreen.storyboard in Resources */,
+				E939BEA51D3CBE4600CCCE3F /* Assets.xcassets in Resources */,
+				E939BF111D3CC5EE00CCCE3F /* PaintCodeFile.pcvd in Resources */,
+				E939BEA31D3CBE4600CCCE3F /* Main.storyboard in Resources */,
+				E939BEB01D3CBFC100CCCE3F /* latex.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		059F5853519511E4CC513680 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5DE64CCC1F6BFB21D47DE89B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Sample-Mathpix/Pods-Sample-Mathpix-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D622B6C930CC19ECB4526A99 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Sample-Mathpix/Pods-Sample-Mathpix-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E939BE961D3CBE4600CCCE3F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E939BF081D3CC5EE00CCCE3F /* CropControlCorner.swift in Sources */,
+				E939BEB61D3CC2F400CCCE3F /* Constants.swift in Sources */,
+				E939BF121D3CC5EE00CCCE3F /* CameraStyleKitClass.m in Sources */,
+				E939BF201D3CC76100CCCE3F /* ColorUtil.swift in Sources */,
+				E939BEBA1D3CC5AB00CCCE3F /* OverlayView.m in Sources */,
+				E939BF221D3CC76100CCCE3F /* FXBlurView.m in Sources */,
+				E939BF071D3CC5EE00CCCE3F /* CropControl.swift in Sources */,
+				E939BF131D3CC5EE00CCCE3F /* CaptureSessionManager.m in Sources */,
+				E939BF0E1D3CC5EE00CCCE3F /* CameraShutterButton.m in Sources */,
+				E939BF211D3CC76100CCCE3F /* DeviceUID.m in Sources */,
+				E939BF091D3CC5EE00CCCE3F /* CropControlOverlay.swift in Sources */,
+				E939BEA01D3CBE4600CCCE3F /* WebViewController.swift in Sources */,
+				E939BF0A1D3CC5EE00CCCE3F /* CameraSessionView.m in Sources */,
+				E939BF0B1D3CC5EE00CCCE3F /* CameraDismissButton.m in Sources */,
+				E939BF0F1D3CC5EE00CCCE3F /* CameraToggleButton.m in Sources */,
+				E939BF251D3CC76100CCCE3F /* UIView+Size.m in Sources */,
+				E939BEB41D3CC2B300CCCE3F /* ImageService.swift in Sources */,
+				E939BF241D3CC76100CCCE3F /* UIImage+Resize.m in Sources */,
+				E939BF0C1D3CC5EE00CCCE3F /* CameraFlashButton.m in Sources */,
+				E939BF0D1D3CC5EE00CCCE3F /* CameraFocalReticule.m in Sources */,
+				E939BE9E1D3CBE4600CCCE3F /* AppDelegate.swift in Sources */,
+				E939BEB21D3CC17900CCCE3F /* CameraViewController.swift in Sources */,
+				E939BF101D3CC5EE00CCCE3F /* LaunchCameraButton.m in Sources */,
+				E939BF141D3CC5EE00CCCE3F /* Constants.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E939BEA11D3CBE4600CCCE3F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E939BEA21D3CBE4600CCCE3F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E939BEA61D3CBE4600CCCE3F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E939BEA71D3CBE4600CCCE3F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E939BEAA1D3CBE4600CCCE3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E939BEAB1D3CBE4600CCCE3F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E939BEAD1D3CBE4600CCCE3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0BA6FC7EECA3E2E44B85FB9 /* Pods-Sample-Mathpix.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = "Sample-Mathpix/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mymathpix.Sample-Mathpix";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Sample-Mathpix/Sample-Mathpix-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E939BEAE1D3CBE4600CCCE3F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E6555EF496B11B30DA596A3 /* Pods-Sample-Mathpix.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = "Sample-Mathpix/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mymathpix.Sample-Mathpix";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Sample-Mathpix/Sample-Mathpix-Bridging-Header.h";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E939BE951D3CBE4600CCCE3F /* Build configuration list for PBXProject "Sample-Mathpix" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E939BEAA1D3CBE4600CCCE3F /* Debug */,
+				E939BEAB1D3CBE4600CCCE3F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E939BEAC1D3CBE4600CCCE3F /* Build configuration list for PBXNativeTarget "Sample-Mathpix" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E939BEAD1D3CBE4600CCCE3F /* Debug */,
+				E939BEAE1D3CBE4600CCCE3F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E939BE921D3CBE4600CCCE3F /* Project object */;
+}

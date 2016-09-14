@@ -1,0 +1,8 @@
+target 'Sample-Mathpix' do
+
+  use_frameworks!
+
+  pod 'MBProgressHUD'
+  pod 'PureLayout'
+
+end

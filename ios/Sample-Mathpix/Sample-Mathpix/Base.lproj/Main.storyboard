@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="mKZ-KM-2qD">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="6fV-ne-5l1">
+            <objects>
+                <navigationController id="mKZ-KM-2qD" sceneMemberID="viewController">
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="b3U-rz-giZ">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="FRT-0j-7i7" kind="relationship" relationship="rootViewController" id="wff-X0-kL7"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Y0m-ch-PAE" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-710" y="-316"/>
+        </scene>
+        <!--Web View Controller-->
+        <scene sceneID="RYL-oQ-z5a">
+            <objects>
+                <viewController id="FRT-0j-7i7" customClass="WebViewController" customModule="Sample_Mathpix" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="roy-m1-zfA"/>
+                        <viewControllerLayoutGuide type="bottom" id="Q9w-R1-oq5"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="x02-T4-sDk">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ptp-cV-WwL">
+                                <rect key="frame" x="0.0" y="64" width="320" height="460"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="deviceRGB"/>
+                                <connections>
+                                    <outlet property="delegate" destination="FRT-0j-7i7" id="yL8-y3-A8L"/>
+                                </connections>
+                            </webView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Ptp-cV-WwL" firstAttribute="leading" secondItem="x02-T4-sDk" secondAttribute="leading" id="8ru-DI-h32"/>
+                            <constraint firstItem="Q9w-R1-oq5" firstAttribute="top" secondItem="Ptp-cV-WwL" secondAttribute="bottom" id="ADu-ok-lHR"/>
+                            <constraint firstItem="Ptp-cV-WwL" firstAttribute="top" secondItem="roy-m1-zfA" secondAttribute="bottom" id="aEM-of-tel"/>
+                            <constraint firstAttribute="trailing" secondItem="Ptp-cV-WwL" secondAttribute="trailing" id="twE-V5-qNv"/>
+                        </constraints>
+                    </view>
+                    <toolbarItems>
+                        <barButtonItem style="plain" systemItem="flexibleSpace" id="Pnv-6f-CWv"/>
+                        <barButtonItem title="+" id="1SV-wI-yVX">
+                            <connections>
+                                <segue destination="ts5-ax-vW4" kind="presentation" identifier="showCameraRoll" id="jah-Hk-mBL"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem style="plain" systemItem="flexibleSpace" id="UaZ-jb-Ma2"/>
+                    </toolbarItems>
+                    <navigationItem key="navigationItem" id="62K-0W-D8B"/>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="webView" destination="Ptp-cV-WwL" id="ee3-xq-HZH"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Y8k-O3-d2T" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-159" y="-316"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="ogF-lh-Zj8">
+            <objects>
+                <navigationController id="ts5-ax-vW4" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Fzi-PZ-OTS">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="EgS-jL-Lls" kind="relationship" relationship="rootViewController" id="3mn-Rv-RIi"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Seu-ht-adx" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-159" y="484"/>
+        </scene>
+        <!--Camera View Controller-->
+        <scene sceneID="F0J-3L-eSu">
+            <objects>
+                <viewController id="EgS-jL-Lls" customClass="CameraViewController" customModule="Sample_Mathpix" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="i8C-gZ-8FM"/>
+                        <viewControllerLayoutGuide type="bottom" id="giW-cS-lfV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="dup-eo-bCP">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8eX-3s-qvd" customClass="CameraSessionView">
+                                <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jkf-Fi-e5G" customClass="CameraFlashButton">
+                                <rect key="frame" x="50" y="114" width="30" height="30"/>
+                                <connections>
+                                    <action selector="flashButtonClick:" destination="EgS-jL-Lls" eventType="touchUpInside" id="v7o-I8-O2d"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="8eX-3s-qvd" secondAttribute="trailing" id="59M-Ih-j9B"/>
+                            <constraint firstItem="8eX-3s-qvd" firstAttribute="leading" secondItem="dup-eo-bCP" secondAttribute="leading" id="94W-Db-AOj"/>
+                            <constraint firstItem="Jkf-Fi-e5G" firstAttribute="top" secondItem="i8C-gZ-8FM" secondAttribute="bottom" constant="50" id="Gdb-Jf-0T1"/>
+                            <constraint firstItem="8eX-3s-qvd" firstAttribute="top" secondItem="i8C-gZ-8FM" secondAttribute="bottom" id="IGL-Ep-qwX"/>
+                            <constraint firstItem="Jkf-Fi-e5G" firstAttribute="leading" secondItem="dup-eo-bCP" secondAttribute="leading" constant="50" id="b5P-zP-fBw"/>
+                            <constraint firstItem="giW-cS-lfV" firstAttribute="top" secondItem="8eX-3s-qvd" secondAttribute="bottom" id="gka-XU-VV9"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="ONU-2n-2N8">
+                        <barButtonItem key="leftBarButtonItem" title="Back" id="tyN-0C-cX2">
+                            <connections>
+                                <action selector="backButtonClick:" destination="EgS-jL-Lls" id="Ny6-92-Wkc"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="cameraView" destination="8eX-3s-qvd" id="QKz-Vr-ZAW"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="s0R-Fb-CaQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="393" y="484"/>
+        </scene>
+    </scenes>
+</document>
