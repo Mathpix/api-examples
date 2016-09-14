@@ -11,7 +11,7 @@ import Foundation
 struct Constants {
     
     //URLS
-    static let requestURL = "http://dev-api.mathpix.com/v2/latex"
+    static let requestURL = "http://api.mathpix.com/v2/latex"
     
     //Request
     static let boundaryConstant = "----------V2ymHFg03ehbqgZCaKO6jy"
