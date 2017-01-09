@@ -1,6 +1,4 @@
 #!/usr/bin/env python
-import math
-import time
 import sys
 import requests
 import json
