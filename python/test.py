@@ -8,8 +8,8 @@ if len(sys.argv) < 2:
     exit()
 
 file_path = sys.argv[1]
-r = requests.post('http://api.mathpix.com/v2/latex',
-    files={'file': open(file_path, 'rb')}, 
-    headers={"app_id": "4985f625", "app_key": "4423301b832793e217d04bc44eb041d3"})
+r = requests.post('https://api.mathpix.com/v2/latex',
+    files={'file': open(file_path, 'rb')},
+    headers={"app_id": "YOUR APP ID", "app_key": "YOUR APP KEY"})
 text = r.text
 print json.dumps(json.loads(text), indent=4, sort_keys=True)
