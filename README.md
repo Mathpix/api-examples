@@ -2,14 +2,8 @@
 
 ## Docs 
 
-Some API examples for the image to Latex API that powers mathpix.com as well as others.  The general docs for the API can be found here: https://mathpix.github.io/docs/
+Some API examples for the image to Latex API that powers mathpix.com as well as others.  The general docs for the API can be found here: http://docs.mathpix.com
 
-The purpose of this repo is to provide illustrative examples for various platforms.  Android example coming soon!
+The purpose of this repo is to provide illustrative examples for various platforms.  Please use https://github.com/mathpix/ios-sample for a sample iOS app and use https://github.com/mathpix/android-sample for an Android one.
 
-## What it does
-Shows how to use the Mathpix Latex API via the following means:
-
-1.  A simple 10 line Python script.
-2.  A minimal iOS application that crops user images, calls the API, and renders the resulting Latex.
-
-Notice: we had to disable the open API key due to API abuse, please request one from support@mathpix.com for now.
+Note: for production use, please request an API key from support@mathpix.com.
