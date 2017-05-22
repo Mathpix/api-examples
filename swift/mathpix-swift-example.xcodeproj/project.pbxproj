@@ -1,0 +1,454 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2BB34C56CEAFF18DADD21B69 /* Pods_mathpix_swift_example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F4A09B7E1C5F08BEEF1B14B /* Pods_mathpix_swift_example.framework */; };
+		843025121ED3524A008BF1CA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843025111ED3524A008BF1CA /* AppDelegate.swift */; };
+		843025141ED3524A008BF1CA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843025131ED3524A008BF1CA /* ViewController.swift */; };
+		843025171ED3524A008BF1CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 843025151ED3524A008BF1CA /* Main.storyboard */; };
+		843025191ED3524A008BF1CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 843025181ED3524A008BF1CA /* Assets.xcassets */; };
+		8430251C1ED3524A008BF1CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8430251A1ED3524A008BF1CA /* LaunchScreen.storyboard */; };
+		843025341ED352EB008BF1CA /* problem_number.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 843025241ED352EB008BF1CA /* problem_number.jpg */; };
+		843025351ED352EB008BF1CA /* multiple_equations.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 843025251ED352EB008BF1CA /* multiple_equations.jpg */; };
+		843025361ED352EB008BF1CA /* mixed_text_math.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 843025261ED352EB008BF1CA /* mixed_text_math.jpg */; };
+		843025371ED352EB008BF1CA /* matrix_3x3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 843025271ED352EB008BF1CA /* matrix_3x3.jpg */; };
+		843025381ED352EB008BF1CA /* matrix_2x2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 843025281ED352EB008BF1CA /* matrix_2x2.jpg */; };
+		843025391ED352EB008BF1CA /* long_division.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 843025291ED352EB008BF1CA /* long_division.jpg */; };
+		8430253A1ED352EB008BF1CA /* limit.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8430252A1ED352EB008BF1CA /* limit.jpg */; };
+		8430253B1ED352EB008BF1CA /* inverted.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8430252B1ED352EB008BF1CA /* inverted.jpg */; };
+		8430253C1ED352EB008BF1CA /* integral.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8430252C1ED352EB008BF1CA /* integral.jpg */; };
+		8430253D1ED352EB008BF1CA /* graph.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8430252D1ED352EB008BF1CA /* graph.jpg */; };
+		8430253E1ED352EB008BF1CA /* grading_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8430252E1ED352EB008BF1CA /* grading_1.jpg */; };
+		8430253F1ED352EB008BF1CA /* grading_0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8430252F1ED352EB008BF1CA /* grading_0.jpg */; };
+		843025401ED352EB008BF1CA /* fraction.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 843025301ED352EB008BF1CA /* fraction.jpg */; };
+		843025411ED352EB008BF1CA /* dog.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 843025311ED352EB008BF1CA /* dog.jpg */; };
+		843025421ED352EB008BF1CA /* diagram.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 843025321ED352EB008BF1CA /* diagram.jpg */; };
+		843025431ED352EB008BF1CA /* algebra.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 843025331ED352EB008BF1CA /* algebra.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6F4A09B7E1C5F08BEEF1B14B /* Pods_mathpix_swift_example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_mathpix_swift_example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8430250E1ED3524A008BF1CA /* mathpix-swift-example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "mathpix-swift-example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		843025111ED3524A008BF1CA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		843025131ED3524A008BF1CA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		843025161ED3524A008BF1CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		843025181ED3524A008BF1CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8430251B1ED3524A008BF1CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8430251D1ED3524A008BF1CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		843025241ED352EB008BF1CA /* problem_number.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = problem_number.jpg; path = assets/problem_number.jpg; sourceTree = "<group>"; };
+		843025251ED352EB008BF1CA /* multiple_equations.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = multiple_equations.jpg; path = assets/multiple_equations.jpg; sourceTree = "<group>"; };
+		843025261ED352EB008BF1CA /* mixed_text_math.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = mixed_text_math.jpg; path = assets/mixed_text_math.jpg; sourceTree = "<group>"; };
+		843025271ED352EB008BF1CA /* matrix_3x3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = matrix_3x3.jpg; path = assets/matrix_3x3.jpg; sourceTree = "<group>"; };
+		843025281ED352EB008BF1CA /* matrix_2x2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = matrix_2x2.jpg; path = assets/matrix_2x2.jpg; sourceTree = "<group>"; };
+		843025291ED352EB008BF1CA /* long_division.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = long_division.jpg; path = assets/long_division.jpg; sourceTree = "<group>"; };
+		8430252A1ED352EB008BF1CA /* limit.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = limit.jpg; path = assets/limit.jpg; sourceTree = "<group>"; };
+		8430252B1ED352EB008BF1CA /* inverted.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = inverted.jpg; path = assets/inverted.jpg; sourceTree = "<group>"; };
+		8430252C1ED352EB008BF1CA /* integral.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = integral.jpg; path = assets/integral.jpg; sourceTree = "<group>"; };
+		8430252D1ED352EB008BF1CA /* graph.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = graph.jpg; path = assets/graph.jpg; sourceTree = "<group>"; };
+		8430252E1ED352EB008BF1CA /* grading_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = grading_1.jpg; path = assets/grading_1.jpg; sourceTree = "<group>"; };
+		8430252F1ED352EB008BF1CA /* grading_0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = grading_0.jpg; path = assets/grading_0.jpg; sourceTree = "<group>"; };
+		843025301ED352EB008BF1CA /* fraction.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = fraction.jpg; path = assets/fraction.jpg; sourceTree = "<group>"; };
+		843025311ED352EB008BF1CA /* dog.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = dog.jpg; path = assets/dog.jpg; sourceTree = "<group>"; };
+		843025321ED352EB008BF1CA /* diagram.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = diagram.jpg; path = assets/diagram.jpg; sourceTree = "<group>"; };
+		843025331ED352EB008BF1CA /* algebra.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = algebra.jpg; path = assets/algebra.jpg; sourceTree = "<group>"; };
+		B51321D6ABB7F1920F3FC918 /* Pods-mathpix-swift-example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mathpix-swift-example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-mathpix-swift-example/Pods-mathpix-swift-example.debug.xcconfig"; sourceTree = "<group>"; };
+		BC31D95FB744ACCE77D5B846 /* Pods-mathpix-swift-example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mathpix-swift-example.release.xcconfig"; path = "Pods/Target Support Files/Pods-mathpix-swift-example/Pods-mathpix-swift-example.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8430250B1ED3524A008BF1CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BB34C56CEAFF18DADD21B69 /* Pods_mathpix_swift_example.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4DEDF079F0B94BB81B47E9A3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6F4A09B7E1C5F08BEEF1B14B /* Pods_mathpix_swift_example.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		61054B15012C8AF5ECA0F8F3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B51321D6ABB7F1920F3FC918 /* Pods-mathpix-swift-example.debug.xcconfig */,
+				BC31D95FB744ACCE77D5B846 /* Pods-mathpix-swift-example.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		843025051ED3524A008BF1CA = {
+			isa = PBXGroup;
+			children = (
+				843025101ED3524A008BF1CA /* mathpix-swift-example */,
+				8430250F1ED3524A008BF1CA /* Products */,
+				61054B15012C8AF5ECA0F8F3 /* Pods */,
+				4DEDF079F0B94BB81B47E9A3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8430250F1ED3524A008BF1CA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8430250E1ED3524A008BF1CA /* mathpix-swift-example.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		843025101ED3524A008BF1CA /* mathpix-swift-example */ = {
+			isa = PBXGroup;
+			children = (
+				843025231ED352E2008BF1CA /* assets */,
+				843025111ED3524A008BF1CA /* AppDelegate.swift */,
+				843025131ED3524A008BF1CA /* ViewController.swift */,
+				843025151ED3524A008BF1CA /* Main.storyboard */,
+				843025181ED3524A008BF1CA /* Assets.xcassets */,
+				8430251A1ED3524A008BF1CA /* LaunchScreen.storyboard */,
+				8430251D1ED3524A008BF1CA /* Info.plist */,
+			);
+			path = "mathpix-swift-example";
+			sourceTree = "<group>";
+		};
+		843025231ED352E2008BF1CA /* assets */ = {
+			isa = PBXGroup;
+			children = (
+				843025241ED352EB008BF1CA /* problem_number.jpg */,
+				843025251ED352EB008BF1CA /* multiple_equations.jpg */,
+				843025261ED352EB008BF1CA /* mixed_text_math.jpg */,
+				843025271ED352EB008BF1CA /* matrix_3x3.jpg */,
+				843025281ED352EB008BF1CA /* matrix_2x2.jpg */,
+				843025291ED352EB008BF1CA /* long_division.jpg */,
+				8430252A1ED352EB008BF1CA /* limit.jpg */,
+				8430252B1ED352EB008BF1CA /* inverted.jpg */,
+				8430252C1ED352EB008BF1CA /* integral.jpg */,
+				8430252D1ED352EB008BF1CA /* graph.jpg */,
+				8430252E1ED352EB008BF1CA /* grading_1.jpg */,
+				8430252F1ED352EB008BF1CA /* grading_0.jpg */,
+				843025301ED352EB008BF1CA /* fraction.jpg */,
+				843025311ED352EB008BF1CA /* dog.jpg */,
+				843025321ED352EB008BF1CA /* diagram.jpg */,
+				843025331ED352EB008BF1CA /* algebra.jpg */,
+			);
+			name = assets;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8430250D1ED3524A008BF1CA /* mathpix-swift-example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 843025201ED3524A008BF1CA /* Build configuration list for PBXNativeTarget "mathpix-swift-example" */;
+			buildPhases = (
+				8581E551FC13CE3437E943C7 /* [CP] Check Pods Manifest.lock */,
+				8430250A1ED3524A008BF1CA /* Sources */,
+				8430250B1ED3524A008BF1CA /* Frameworks */,
+				8430250C1ED3524A008BF1CA /* Resources */,
+				4D5B97470E61B026FE4540A7 /* [CP] Embed Pods Frameworks */,
+				C1CE83174A3E576DF7B90398 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "mathpix-swift-example";
+			productName = "mathpix-swift-example";
+			productReference = 8430250E1ED3524A008BF1CA /* mathpix-swift-example.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		843025061ED3524A008BF1CA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Mathpix;
+				TargetAttributes = {
+					8430250D1ED3524A008BF1CA = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 843025091ED3524A008BF1CA /* Build configuration list for PBXProject "mathpix-swift-example" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 843025051ED3524A008BF1CA;
+			productRefGroup = 8430250F1ED3524A008BF1CA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8430250D1ED3524A008BF1CA /* mathpix-swift-example */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8430250C1ED3524A008BF1CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				843025351ED352EB008BF1CA /* multiple_equations.jpg in Resources */,
+				843025401ED352EB008BF1CA /* fraction.jpg in Resources */,
+				8430251C1ED3524A008BF1CA /* LaunchScreen.storyboard in Resources */,
+				8430253F1ED352EB008BF1CA /* grading_0.jpg in Resources */,
+				8430253B1ED352EB008BF1CA /* inverted.jpg in Resources */,
+				843025361ED352EB008BF1CA /* mixed_text_math.jpg in Resources */,
+				8430253E1ED352EB008BF1CA /* grading_1.jpg in Resources */,
+				843025371ED352EB008BF1CA /* matrix_3x3.jpg in Resources */,
+				8430253C1ED352EB008BF1CA /* integral.jpg in Resources */,
+				843025431ED352EB008BF1CA /* algebra.jpg in Resources */,
+				843025191ED3524A008BF1CA /* Assets.xcassets in Resources */,
+				8430253A1ED352EB008BF1CA /* limit.jpg in Resources */,
+				843025391ED352EB008BF1CA /* long_division.jpg in Resources */,
+				843025381ED352EB008BF1CA /* matrix_2x2.jpg in Resources */,
+				843025421ED352EB008BF1CA /* diagram.jpg in Resources */,
+				8430253D1ED352EB008BF1CA /* graph.jpg in Resources */,
+				843025341ED352EB008BF1CA /* problem_number.jpg in Resources */,
+				843025411ED352EB008BF1CA /* dog.jpg in Resources */,
+				843025171ED3524A008BF1CA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4D5B97470E61B026FE4540A7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-mathpix-swift-example/Pods-mathpix-swift-example-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8581E551FC13CE3437E943C7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C1CE83174A3E576DF7B90398 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-mathpix-swift-example/Pods-mathpix-swift-example-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8430250A1ED3524A008BF1CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				843025141ED3524A008BF1CA /* ViewController.swift in Sources */,
+				843025121ED3524A008BF1CA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		843025151ED3524A008BF1CA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				843025161ED3524A008BF1CA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8430251A1ED3524A008BF1CA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8430251B1ED3524A008BF1CA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8430251E1ED3524A008BF1CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8430251F1ED3524A008BF1CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		843025211ED3524A008BF1CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B51321D6ABB7F1920F3FC918 /* Pods-mathpix-swift-example.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "mathpix-swift-example/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mathpix.mathpix-swift-example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		843025221ED3524A008BF1CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC31D95FB744ACCE77D5B846 /* Pods-mathpix-swift-example.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "mathpix-swift-example/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mathpix.mathpix-swift-example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		843025091ED3524A008BF1CA /* Build configuration list for PBXProject "mathpix-swift-example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8430251E1ED3524A008BF1CA /* Debug */,
+				8430251F1ED3524A008BF1CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		843025201ED3524A008BF1CA /* Build configuration list for PBXNativeTarget "mathpix-swift-example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				843025211ED3524A008BF1CA /* Debug */,
+				843025221ED3524A008BF1CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 843025061ED3524A008BF1CA /* Project object */;
+}
