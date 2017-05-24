@@ -1,5 +1,7 @@
 # Usage:
 
+Do:
 ```
-./test.py algebra.jpg
+cd api-examples 
+python python/test.py images/algebra.jpg
 ```
