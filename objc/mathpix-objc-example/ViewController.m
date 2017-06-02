@@ -18,7 +18,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     NSString * assetFileName = [self getAssetFile:@"limit"];
-    [self processSingleImage:assetFileName];
+    [self processSingleImage1:assetFileName];
 }
 
 
@@ -60,4 +60,42 @@
     
     [uploadTask resume];
 }
+
+
+- (void)processSingleImage1: (NSString *)imageName {
+    NSData *data = [NSData dataWithContentsOfFile:imageName options:NSDataReadingMapped error:nil];
+    NSString *base64String = [data base64EncodedStringWithOptions:0];
+    NSDictionary *headers = @{ @"content-type": @"application/json",
+                               @"app_id": @"mathpix",
+                               @"app_key": @"139ee4b61be2e4abcfb1238d9eb99902"};
+    NSDictionary *param = @{@"url" : [NSString stringWithFormat:@"data:image/jpeg;base64,%@", base64String]};
+    
+    NSData *postData = [NSJSONSerialization dataWithJSONObject:param options:0 error:nil];
+    
+    NSMutableURLRequest *request = [NSMutableURLRequest requestWithURL:[NSURL URLWithString:@"https://api.mathpix.com/v3/latex"]
+                                                           cachePolicy:NSURLRequestUseProtocolCachePolicy
+                                                       timeoutInterval:60.0];
+    [request setHTTPMethod:@"POST"];
+    [request setAllHTTPHeaderFields:headers];
+    [request setHTTPBody:postData];
+    
+    NSURLSession *session = [NSURLSession sharedSession];
+    NSURLSessionDataTask *dataTask = [session dataTaskWithRequest:request
+                                                completionHandler:^(NSData *data, NSURLResponse *response, NSError *error) {
+                                                    if (error) {
+                                                        NSLog(@"Error: %@", error);
+                                                    } else {
+                                                        NSError *e = nil;
+                                                        id json = [NSJSONSerialization JSONObjectWithData: data options: NSJSONReadingMutableLeaves error: &e];
+                                                        
+                                                        if (!json) {
+                                                            NSLog(@"Error parsing JSON: %@", e);
+                                                        } else {
+                                                            NSLog(@"Response: %@", json);
+                                                        }
+                                                    }
+                                                }];
+    [dataTask resume];
+}
+
 @end
