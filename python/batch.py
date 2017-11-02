@@ -21,7 +21,7 @@ urls = {}
 for i, img in enumerate(images):
     urls['url-' + str(i + 1)] = urlbase + img
 
-body = {'urls': urls, 'callback': {'post': 'http://httpbin.org/post'}}
+body = {'urls': urls}
 r = requests.post(server + '/v3/batch', headers=headers, data=json.dumps(body))
 info = json.loads(r.text)
 b = info['batch_id']
