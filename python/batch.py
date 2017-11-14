@@ -9,6 +9,7 @@ import json
 # Batch request example in Python.
 #
 
+# get api_key from dashboard.mathpix.com or contact support@mathpix.com if you're in China
 server = os.environ.get('MATHPIX_API', 'https://api.mathpix.com')
 app = os.environ['MATHPIX_APP_ID']
 key = os.environ['MATHPIX_APP_KEY']
