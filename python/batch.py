@@ -33,10 +33,11 @@ urls = {}
 for i, img in enumerate(images):
     urls['url-' + str(i + 1).zfill(2)] = urlbase + img
 
-body = {'urls': urls}
+body = {'urls': urls, 'formats': ['latex_normal']}
 start = time.time()
 r = requests.post(server + '/v3/batch', headers=headers, data=json.dumps(body))
 info = json.loads(r.text)
+print info
 b = info['batch_id']
 print("Batch id is %s" % b)
 
@@ -74,7 +75,7 @@ while True:
         print('Batch results:')
         for key in sorted(results):
             result = results[key]
-            answer = result.get('latex', '') or result.get('error', '???')
+            answer = result.get('latex_normal', '') or result.get('error', '???')
             print(key + ': ' + answer)
 
         break
