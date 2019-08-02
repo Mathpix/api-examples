@@ -2,6 +2,7 @@
 
 Do:
 ```
-cd api-examples 
-python python/test.py images/algebra.jpg
+cd api-examples/python
+python3 simple.py
+python3 formats.py
 ```
